@@ -15,6 +15,7 @@ This project is a fork of [svennergy's pull request](https://github.com/svennerg
 * Options to filter the list of games and channels
     - Channels
         - Filter on language
+        - Filter on console, creative, etc.
 * Improve the "Stream Search" textfield
     - Retain the search string (it's annoying to have to retype everything when making an error)
     - Have an 'X' icon to the right of the textfield to cancel the search and empty the textfield
@@ -24,8 +25,28 @@ This project is a fork of [svennergy's pull request](https://github.com/svennerg
 ### Second Stage
 
 * Add Browse category for Videos
-* 
+* Add Browse category for Creative
+    - Clicking on Creative under Games navigates the user to this page
+* Add the ability to log into a user's Twitch account
+    - No ads for Twitch Prime users (however, I don't see ads now with svennergy's changes - why?)
+    - When logged in, add Browse category for Following
+    - Add the "You Follow" collapsible sidebar to the right of the screen
+    - Get near real-time notifications when a channel that the user follows goes live
+    - Add the option to follow a channel
+    - Add the option to jump to the user's channel from the left sidebar
+* Research whether it's possible to use LocalStorage to "Follow" channels without having to log into an account
+    - This would give all of the benefits as above except any Twitch Prime benefits and jumping to the user's channel
+    
+### Third Stage
 
+To be fleshed out more, but includes:
+
+* Add the ability to show the chat while watching a stream
+* Add the ability to send messages in the chat via the on-screen keyboard or a USB keyboard
+
+## Issues
+
+* Installing the application via Developer Mode only has the app installed while Developer Mode is enabled. If Developer Mode is disabled manually or automatically when the session expires, the app is uninstalled. Please contact me if you have a way around this.
 
 
 ## Original License  
